@@ -12,10 +12,3 @@ group = Hash.new(0)
 result.each { |num| group[num] += 1}
 group = group.sort_by {|num, result| num}
 group.each { |num, group| puts num + "("+ group.to_s + ")" }
-
-
-
-#Hash
-  #for each unique item in the hash
-    #save to hash
-  #end
