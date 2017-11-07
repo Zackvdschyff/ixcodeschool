@@ -1,7 +1,8 @@
-my_array = [1,2,3,4,5]
-
-for my_array.each do |x|
-      if x-(x-1) >= 0
-        puts "the highest value is #{x}"
-      end
+def max_number(arr)
+  #end
+  #puts max_number[0]
+  max_number.max_by do |x|
+    arr.x
 end
+
+puts max_number([5, 0, 3, 8, 2])
